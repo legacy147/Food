@@ -1,0 +1,8 @@
+@import url(./IstokWeb-Bold.ttf);
+@import url(./IstokWeb-BoldItalic.ttf);
+
+
+.carousel-item img{
+    height: 70vh;
+    width: 100vw;
+}

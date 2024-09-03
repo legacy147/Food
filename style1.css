@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+@import url(./IstokWeb-Bold.ttf);
+@import url(./IstokWeb-BoldItalic.ttf);
+@import url(./IstokWeb-Italic.ttf);
+
+#span{
+    font-family: "RocknRoll One", sans-serif !important;
+    font-size: 5
+    ;
+
+}
+
+
+
+
+.navbar-brand img{
+    width: 6rem;
+    object-fit: contain;
+    margin-bottom: -2rem;
+
+}
+
+.cart_badge{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    color: rgb(255, 255, 255);
+    width: 15px;
+    height: 15px;
+    font-size: o.8rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(223, 32, 32);
+    border-radius: 50%;
+}
+
+.cart_icon{
+    cursor: pointer;
+    position: relative;
+}
+
+img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
+}
+
+button{
+    background-color: red;
+    border: none;
+    padding: 0.4rem;
+    border-radius: 5px;
+    color: #d3d3d3;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+.container{
+    margin-top: auto;
+}
+
+.article{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+article{
+    width: 20%;
+    border: 1px solid #d3d3d3;
+}
+
+.user i{
+    color: #25264e;
+}
+
+.category_item{
+    border-radius: 10px;
+    background-color: rgb(250, 222, 222);
+    cursor: pointer;
+}
+.food_category button{
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    background: transparent;
+    padding: 3px;
+
+}
